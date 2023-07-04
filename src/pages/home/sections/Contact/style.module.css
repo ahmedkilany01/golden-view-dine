@@ -1,0 +1,89 @@
+.contact_container {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--section_bg);
+}
+
+.contact_links_container {
+  color: var(--text);
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  gap: 2rem;
+}
+
+.logo {
+  display: flex;
+  gap: 15px;
+}
+
+.logo img {
+  width: 80px;
+  height: 80px;
+}
+
+.logo p {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.logo_info {
+  padding: 0 0 0 2.5rem;
+  margin: 15px 0;
+  font-size: 14px;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  line-height: 1.5;
+}
+
+.social_media_icons {
+  padding: 0 0 0 2.5rem;
+  margin: 15px 0;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.social_media_icons img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #333539;
+  padding: 9px;
+}
+
+.list_header {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.list_container {
+  margin: 20px 0;
+  padding: 5px 20px;
+  line-height: 1.75;
+}
+
+.list_container li {
+  font-size: 15px;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+}
+
+.contact_info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.contact_info img {
+  height: 28px;
+  width: 28px;
+}

@@ -1,0 +1,45 @@
+.cook_container {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.right_side {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+/* 
+.header {
+
+} */
+
+.header p {
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--text);
+  text-transform: capitalize;
+}
+
+.description {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color: var(--text);
+}
+
+.image {
+  width: 450px;
+}

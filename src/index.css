@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+:root {
+  --btn_background: #a08040;
+  --section_header: #ffce6d;
+  --btn_border: #fffccc;
+  --text: #fffffc;
+  --btn_text: #ffffff;
+  --menu_text: #ffffff;
+  --section_bg: rgba(16, 20, 24, 70%);
+
+  --dancing_script_font: "Dancing Script", cursive, "Roboto", sans-serif;
+  --roboto_font: "Roboto", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--roboto_font);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+h2.section_header {
+  color: var(--section_header);
+  font-size: 36px;
+  font-weight: 700;
+  font-family: var(--dancing_script_font);
+  text-transform: capitalize;
+}
+

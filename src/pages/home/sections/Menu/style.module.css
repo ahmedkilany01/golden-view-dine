@@ -1,0 +1,76 @@
+.menu_container {
+  height: 100vh;
+}
+
+.header {
+  text-align: center;
+}
+
+.content {
+  margin: 15px 0;
+  width: 100%;
+}
+
+.header p {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 10px;
+  color: var(--text);
+  text-transform: capitalize;
+}
+
+.meals {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  grid-column-gap: 5rem;
+  grid-row-gap: 2rem;
+  margin: 2rem 0;
+}
+
+.meal {
+  display: grid;
+  grid-template-columns: 1fr 3fr 3fr;
+  gap: 10px;
+  align-items: center;
+}
+
+.meal_img {
+  width: 64px;
+  height: 64px;
+}
+
+.meal_details {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.meal_name {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.meal_description {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--text);
+}
+
+.price::before {
+  content: "";
+  position: absolute;
+  width: 135px;
+  border: 1px solid var(--section_header);
+  top: 50%;
+  left: 0px;
+}
+
+.price {
+  position: relative;
+  text-align: right;
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--section_header);
+}

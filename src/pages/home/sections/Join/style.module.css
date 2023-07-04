@@ -1,0 +1,32 @@
+.container {
+  background-color: var(--section_bg);
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.image {
+  width: 500px;
+}
+
+.text_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.text_container p:nth-child(1) {
+  font-family: var(--dancing_script_font);
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.text_container p:nth-child(2) {
+  font-size: 32px;
+  font-weight: 800;
+  color: var(--section_header);
+}
