@@ -11,8 +11,8 @@ import Style from "./style.module.css";
 export default class Hero extends Component {
   render() {
     return (
-        <div className={Style.gradient}>
-      <div className={Style.hero_container}>
+      <div className={Style.gradient}>
+        <div className={Style.hero_container}>
           <Container>
             <div className={Style.hero_content}>
               <nav className={Style.nav_container}>
