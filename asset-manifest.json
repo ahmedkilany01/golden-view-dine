@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/golden-view-dine/static/css/main.046981d4.css",
+    "main.js": "/golden-view-dine/static/js/main.ff3ae7fb.js",
+    "static/media/secondayBG.gif": "/golden-view-dine/static/media/secondayBG.494212487ca77f63180b.gif",
+    "static/media/hero.svg": "/golden-view-dine/static/media/hero.f041dfa67858998ac1a3.svg",
+    "static/media/cooking.svg": "/golden-view-dine/static/media/cooking.00633aef813f9f22ef0d7357cbe30865.svg",
+    "static/media/aboutUS.svg": "/golden-view-dine/static/media/aboutUS.ee3e6954e97c2d18903d69f45d7a4d5c.svg",
+    "static/media/join.svg": "/golden-view-dine/static/media/join.7abee274851a3e2ae47a198a12fe05f1.svg",
+    "static/media/Instagram.svg": "/golden-view-dine/static/media/Instagram.9eb77326b93c99e4e0940bd125d346ab.svg",
+    "static/media/Twitter.svg": "/golden-view-dine/static/media/Twitter.6f0ebd33ca62319dd2014b56b07e81cb.svg",
+    "static/media/logo.svg": "/golden-view-dine/static/media/logo.949574e632e0828d00c729b008bba686.svg",
+    "static/media/Youtube.svg": "/golden-view-dine/static/media/Youtube.2bf552a409ecee47aad344467cfeecd1.svg",
+    "index.html": "/golden-view-dine/index.html",
+    "static/media/search.svg": "/golden-view-dine/static/media/search.fce5a8cac9a5922804a52a04cc666424.svg",
+    "main.046981d4.css.map": "/golden-view-dine/static/css/main.046981d4.css.map",
+    "main.ff3ae7fb.js.map": "/golden-view-dine/static/js/main.ff3ae7fb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.046981d4.css",
+    "static/js/main.ff3ae7fb.js"
+  ]
+}
