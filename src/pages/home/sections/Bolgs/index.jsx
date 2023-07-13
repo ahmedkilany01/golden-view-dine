@@ -16,13 +16,18 @@ export default class Blogs extends Component {
           <div className={Style.blogs_container}>
             {Info.blogs.map((blog) => (
               <div
+                key={blog.id}
                 className={
                   blog.image_up
                     ? Style.blog
                     : `${Style.blog} ${Style.blog_image_bottom}`
                 }
               >
-                <img src="" alt="" className={Style.blog_image} />
+                <img
+                  src={blog.image}
+                  alt={blog.title}
+                  className={Style.blog_image}
+                />
                 <div className={Style.blog_content}>
                   <h4>{blog.title}</h4>
                   <p>{blog.description}</p>

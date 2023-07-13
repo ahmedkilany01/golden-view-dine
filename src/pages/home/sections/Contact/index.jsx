@@ -2,12 +2,7 @@ import React, { Component } from "react";
 
 import Container from "../../../../components/Container";
 import Button from "../../../../components/Button";
-import Logo from "../../../../assets/Images/logo.svg";
 import Style from "./style.module.css";
-
-import Instagram from "../../../../assets/Images/Instagram.svg";
-import Twitter from "../../../../assets/Images/Twitter.svg";
-import Youtube from "../../../../assets/Images/Youtube.svg";
 
 export default class Contact extends Component {
   render() {
@@ -18,7 +13,7 @@ export default class Contact extends Component {
             <div className={Style.content}>
               <div className={Style.social_media}>
                 <div className={Style.logo}>
-                  <img src={Logo} alt="Logo" />
+                  <img src="/assets/Images/logo.svg" alt="Logo" />
                   <p>Golden View Dine</p>
                 </div>
                 <p className={Style.logo_info}>
@@ -26,9 +21,24 @@ export default class Contact extends Component {
                   Sollicitudin
                 </p>
                 <div className={Style.social_media_icons}>
-                  <img src={Instagram} alt="" width={10} height={10} />
-                  <img src={Twitter} alt="" width={10} height={10} />
-                  <img src={Youtube} alt="" width={10} height={10} />
+                  <img
+                    src="/assets/Images/Instagram.svg"
+                    alt=""
+                    width={10}
+                    height={10}
+                  />
+                  <img
+                    src="/assets/Images/Twitter.svg"
+                    alt=""
+                    width={10}
+                    height={10}
+                  />
+                  <img
+                    src="/assets/Images/Youtube.svg"
+                    alt=""
+                    width={10}
+                    height={10}
+                  />
                 </div>
               </div>
               <div className={Style.other_links}>

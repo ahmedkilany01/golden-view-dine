@@ -3,9 +3,6 @@ import React, { Component } from "react";
 import Container from "../../../../components/Container";
 import Button from "../../../../components/Button";
 
-import Logo from "../../../../assets/Images/logo.svg";
-import Search from "../../../../assets/Images/search.svg";
-
 import Style from "./style.module.css";
 
 export default class Hero extends Component {
@@ -16,7 +13,7 @@ export default class Hero extends Component {
           <Container>
             <div className={Style.hero_content}>
               <nav className={Style.nav_container}>
-                <img src={Logo} alt="Logo" />
+                <img src="/assets/Images/logo.svg" alt="Logo" />
                 <ul>
                   <li>Home</li>
                   <li>About us</li>
@@ -24,7 +21,7 @@ export default class Hero extends Component {
                   <li>Menu</li>
                   <li>Blogs</li>
                   <li>
-                    <img src={Search} alt="" />
+                    <img src="/assets/Images/search.svg" alt="" />
                   </li>
                 </ul>
                 <button>Book now</button>

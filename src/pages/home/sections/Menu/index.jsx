@@ -19,11 +19,7 @@ export default class Menu extends Component {
             <div className={Style.meals}>
               {Info.menu.map((meal) => (
                 <div key={meal.id} className={Style.meal}>
-                  <img
-                    src="../../../../assets/Images/hcmp33562_1459402.svg"
-                    alt=""
-                    className={Style.meal_img}
-                  />
+                  <img src={meal.image} alt="" className={Style.meal_img} />
                   <div className={Style.meal_details}>
                     <p className={Style.meal_name}>{meal.title}</p>
                     <p className={Style.meal_description}>{meal.description}</p>

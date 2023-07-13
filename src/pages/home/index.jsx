@@ -3,6 +3,7 @@ import AboutUs from "./sections/AboutUs";
 import Blogs from "./sections/Bolgs";
 import Contact from "./sections/Contact";
 import CookingIngredient from "./sections/Cooking";
+import Footer from "./sections/Footer";
 import Hero from "./sections/Hero";
 import Join from "./sections/Join";
 import Menu from "./sections/Menu";
@@ -29,6 +30,7 @@ export default class HomePage extends Component {
           <Blogs />
           <Contact />
           <Subscribe />
+          <Footer />
         </div>
       </>
     );

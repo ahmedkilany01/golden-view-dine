@@ -1,0 +1,14 @@
+.footer_contaienr {
+  height: 10vh;
+  background-color: var(--section_bg);
+  color: var(--text);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 1rem 0 0;
+}

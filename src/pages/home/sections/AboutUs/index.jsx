@@ -3,8 +3,6 @@ import React, { Component } from "react";
 import Container from "../../../../components/Container";
 import Button from "../../../../components/Button";
 
-import Image from "../../../../assets/Images/aboutUS.svg";
-
 import Style from "./style.module.css";
 
 export default class AboutUs extends Component {
@@ -33,7 +31,11 @@ export default class AboutUs extends Component {
               </p>
               <Button>Read more</Button>
             </div>
-            <img src={Image} alt="..." className={Style.image} />
+            <img
+              src="/assets/Images/aboutUS.svg"
+              alt="..."
+              className={Style.image}
+            />
           </div>
         </Container>
       </div>

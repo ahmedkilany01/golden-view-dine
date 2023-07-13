@@ -25,7 +25,7 @@ const info = {
   menu: [
     {
       id: 1,
-      image: "",
+      image: "/assets/Images/dish.svg",
       title: "Lorem ipsum dolor sit amet",
       description: "Lorem ipsum dolor sit amet",
       price: 222,
@@ -127,30 +127,31 @@ const info = {
   ],
   blogs: [
     {
+      id: 1,
       title: "Cooking Dining Experience",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sollicitudin ",
-      image: "",
+      image: "/assets/Images/blog1.svg",
       image_up: true,
     },
     {
+      id: 2,
       title: "Cooking Dining Experience",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sollicitudin ",
-      image: "",
+      image: "/assets/Images/blog2.svg",
       image_up: false,
     },
     {
+      id: 3,
       title: "Cooking Dining Experience",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sollicitudin ",
-      image: "",
+      image: "/assets/Images/unsplash_ThLVnKdeH1k.svg",
       image_up: true,
     },
   ],
-  other_links: [{
-    
-  }],
+  other_links: [{}],
 };
 
 export default info;
